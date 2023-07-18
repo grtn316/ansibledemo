@@ -27,7 +27,7 @@ sudo apt install docker-compose
 
 ## Step 3: Create a web server using a dockerfile
 
-Create a file named: `webserver.dockerfile` using `nano` (or use the file in this repo)
+Create a file named: `Dockerfile` using `nano` (or use the file in this repo)
 
 and add these commands to it:
 
