@@ -51,5 +51,5 @@ Once this file is created, we will use ansible to build the image and deploy it 
 
 Run the following command:
 ```
-ansible builddocker.yaml
+ansible-playbook builddocker.yaml
 ```

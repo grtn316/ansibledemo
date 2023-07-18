@@ -8,5 +8,6 @@
         name: mywebserver
         build:
           path: .
-          listen_port: 80
+          args:
+            listen_port: 80
         source: build
