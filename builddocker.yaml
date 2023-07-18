@@ -4,8 +4,8 @@
   become_user: root
   tasks:
     - name: Build my docker image
-      community.docker.docker_image:
-        name: mywebserver
+      docker_image:
+        name: myimage
         build:
           path: .
           args:
