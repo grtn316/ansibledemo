@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  become: true
+  become_user: root
+  tasks:
+    - name: Build my docker image
+      community.docker.docker_image:
+        name: mywebserver
+        build:
+          path: .
+          listen_port: 80
+        source: build
