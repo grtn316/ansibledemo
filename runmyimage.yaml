@@ -8,5 +8,5 @@
         name: myimage
         state: started
         image: "myimage:latest"
-        pull: true
         ports:
+          - "80:80"
